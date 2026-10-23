@@ -1,1 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Styling Lab</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div id="page-wrapper">
 
+      <header id="header">
+        <a id="logo1" href="index.html">
+          <img src="images/logo.png" alt="Site logo">
+        </a>
+        <h1>CSS Styling Lab</h1>
+        <a id="toplink" href="#main-content">Skip to content</a>
+      </header>
+
+      <nav id="main-nav">
+        <div id="center">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#main-content">Main Content</a></li>
+            <li><a href="#side-content">Side Content</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <div id="content-wrapper">
+        <main id="main-content">
+          <h2>Welcome to the <strong>CSS Lab</strong></h2>
+
+          <p>
+            This page demonstrates how HTML elements are styled using CSS
+            selectors, colors, backgrounds, spacing, and positioning.
+          </p>
+
+          <img class="image-r"
+               src="images/example.jpg"
+               alt="Example image">
+
+          <p>
+            CSS allows you to control the appearance and layout of a webpage.
+            You can use selectors to apply different rules to headings,
+            navigation links, images, and other page elements.
+          </p>
+
+          <p>
+            The purpose of this lab is to connect each CSS rule stack to the
+            correct selector and compare the result with the reference image.
+          </p>
+        </main>
+
+        <aside id="side-content">
+          <h2>Side Content</h2>
+          <p>This area demonstrates a separate content column.</p>
+          <p><strong>Practice:</strong> Compare the layout with the reference.</p>
+        </aside>
+      </div>
+
+      <footer id="footer">
+        <p>CSS Styling Lab</p>
+      </footer>
+
+    </div>
+  </body>
+</html>
