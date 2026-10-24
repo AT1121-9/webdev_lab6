@@ -54,7 +54,7 @@ body {
   clear: both;
 }
 
-/* Content area and striped background */
+/* Main content background */
 #content-wrapper {
   background-image: url("images/repeating.png");
   background-repeat: repeat;
