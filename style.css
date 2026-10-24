@@ -1,6 +1,7 @@
-/* General page background */
+/* Page background */
 body {
-  background: red !important;
+  background-image: url("images/black.jpg");
+  background-repeat: repeat;
 }
 
 /* Main page container */
@@ -23,12 +24,11 @@ body {
 /* Header title */
 #header h1 {
   position: absolute;
-  left: 280px;
+  left: 420px;
   top: 5px;
   font-size: 3em;
   font-family: 'Devonshire', cursive;
   color: #E35335;
-  font-weight: 900;
 }
 
 /* Logo */
@@ -47,40 +47,14 @@ body {
   font-size: 1.8em;
 }
 
-/* Main navigation bar */
-#main-nav {
-  float: left;
-  width: 100%;
-  background-color: #333;
+/* Footer */
+#footer {
+  background-color: #777;
+  height: 80px;
   clear: both;
 }
 
-#main-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  float: left;
-  position: relative;
-  left: 50%;
-}
-
-#main-nav ul li {
-  float: left;
-}
-
-#main-nav ul li a {
-  padding: 10px 25px;
-  display: block;
-  text-decoration: none;
-  color: #ccc;
-}
-
-#main-nav ul li a:hover {
-  background-color: #ccc;
-  color: #333;
-}
-
-/* Main content background */
+/* Content area and striped background */
 #content-wrapper {
   background-image: url("images/repeating.png");
   background-repeat: repeat;
@@ -91,7 +65,7 @@ body {
   overflow: auto;
 }
 
-/* Main article area */
+/* Main content column */
 #main-content {
   min-height: 300px;
   width: 715px;
@@ -100,13 +74,13 @@ body {
   margin-left: 15px;
 }
 
-/* Heading formatting */
+/* Main heading */
 h2 strong {
   font-size: 2em;
   font-weight: 900;
 }
 
-/* Main article image */
+/* Right-floated image */
 .image-r {
   float: right;
   border: 2px solid blue;
@@ -123,18 +97,47 @@ h2 strong {
   float: left;
 }
 
-/* Centering navigation items */
+/* Navigation bar */
+#main-nav {
+  float: left;
+  width: 100%;
+  background-color: #333;
+}
+
+/* Navigation list */
+#main-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  float: left;
+  position: relative;
+  left: 50%;
+}
+
+/* Navigation list items */
+#main-nav ul li {
+  float: left;
+}
+
+/* Navigation links */
+#main-nav ul li a {
+  padding: 10px 25px;
+  display: block;
+  text-decoration: none;
+  color: #ccc;
+}
+
+/* Navigation hover effect */
+#main-nav ul li a:hover {
+  background-color: #ccc;
+  color: #333;
+}
+
+/* Center navigation list */
 #center {
   float: left;
   position: relative;
   right: 50%;
-}
-
-/* Footer */
-#footer {
-  background-color: #777;
-  height: 80px;
-  clear: both;
 }
 
 /* Strong text */
