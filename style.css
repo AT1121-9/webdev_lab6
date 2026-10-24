@@ -1,6 +1,14 @@
 /* Page background */
 body {
   background-image: url("images/black.jpg");
+  background-color: transparent;
+  background-repeat: repeat;
+  color: black;
+}
+
+/* Striped content background */
+#content-wrapper {
+  background-image: url("images/repeating.png");
   background-repeat: repeat;
 }
 
