@@ -1,7 +1,6 @@
 /* General page background */
 body {
-  background-image: url("images/black.jpg");
-  background-repeat: repeat;
+  background: red !important;
 }
 
 /* Main page container */
